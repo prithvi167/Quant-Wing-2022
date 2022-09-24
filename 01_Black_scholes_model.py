@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.stats import norm
 
-r = int(input("Enter the interest rate="))
+r = float(input("Enter the interest rate="))
 S = float(input("Enter the spot price of the asset="))
 K = float(input("Enter the strike price ="))
 time = int(input("Enter the number of days the asset is present in the market="))
